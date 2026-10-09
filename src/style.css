@@ -1,0 +1,34 @@
+/* ===== K-Pop Fan AI Helper · 韩系简约全局样式 ===== */
+:root {
+  --bg: #faf7f4;          /* 奶油白主背景 */
+  --card: #ffffff;        /* 卡片/气泡白 */
+  --primary: #b08bbb;     /* 柔和薰衣草紫 */
+  --primary-soft: #f5c1d6;/* 粉紫点缀 */
+  --mint: #7fb5a8;        /* 薄荷绿（收藏态） */
+  --ink: #2e2a33;         /* 主文字 */
+  --ink-2: #8a8691;       /* 次要文字 */
+  --line: #ead9e3;        /* 浅描边 */
+  --danger: #e07878;
+  --shadow: 0 1px 4px rgba(46,42,51,.06);
+  --radius: 14px;
+}
+
+* { box-sizing: border-box; }
+
+html, body, #app {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC",
+    "Microsoft YaHei", "Pretendard", "Noto Sans KR", sans-serif;
+  background: var(--bg);
+  color: var(--ink);
+  -webkit-font-smoothing: antialiased;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+}
